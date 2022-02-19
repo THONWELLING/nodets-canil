@@ -19,5 +19,9 @@
     </div> 
   {{/list}}
 </div>
-
+{{^list}}
+<div class="container no-list">
+  <h2>Não Há Nenhum Pet Disponível Nestas Condições!</h2>
+</div>
+{{/list}}
 {{>partials/footer}}
